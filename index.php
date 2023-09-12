@@ -250,7 +250,7 @@ if (!empty($_POST) && isset($_FILES['file'])) {
                 <td><?= $row['count_prod']; ?></td>
                 <td><?= $row['property']; ?></td>
                 <td><?= $row['purchases']; ?></td>
-                <td><?= $row['units']; ?></td>
+                <td>"<?= $row['units']; ?>"</td>
                 <td><?= $row['img']; ?></td>
                 <td><?= $row['main_page']; ?></td>
                 <td><?= $row['description']; ?></td>
